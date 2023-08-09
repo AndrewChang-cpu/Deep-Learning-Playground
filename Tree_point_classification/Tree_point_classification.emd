@@ -1,0 +1,104 @@
+{
+    "DataAttributes": {
+        "block_size": [
+            50.0,
+            50.0,
+            314.22
+        ],
+        "max_point": 8192,
+        "extra_features": [
+            [
+                "num_returns",
+                5,
+                0
+            ]
+        ],
+        "extra_dim": 1,
+        "class_mapping": {
+            "0": 0,
+            "5": 1
+        },
+        "color_mapping": {
+            "0": [
+                0,
+                255,
+                0
+            ],
+            "5": [
+                255,
+                0,
+                0
+            ]
+        },
+        "remap": true,
+        "classes": [
+            0,
+            5
+        ]
+    },
+    "ModelParameters": {
+        "encoder_params": {
+            "out_channels": [
+                16,
+                32,
+                64,
+                96
+            ],
+            "P": [
+                8192,
+                768,
+                384,
+                128
+            ],
+            "K": [
+                12,
+                16,
+                16,
+                16
+            ],
+            "D": [
+                1,
+                1,
+                2,
+                2
+            ],
+            "m": 8
+        },
+        "sample_point_num": 8192,
+        "backbone": null,
+        "backend": "pytorch"
+    },
+    "Framework": "N/A",
+    "ModelConfiguration": "N/A",
+    "ExtractBands": "N/A",
+    "Classes": [
+        {
+            "Value": 0,
+            "Name": 0,
+            "Color": [
+                0,
+                255,
+                0
+            ]
+        },
+        {
+            "Value": 5,
+            "Name": 5,
+            "Color": [
+                255,
+                0,
+                0
+            ]
+        }
+    ],
+    "ModelFile": "Tree_point_classification.pth",
+    "ImageHeight": null,
+    "ImageWidth": null,
+    "ImageSpaceUsed": null,
+    "LearningRate": "3.9811e-04",
+    "ModelName": "PointCNN",
+    "backend": "pytorch",
+    "accuracy": 0.9895840883255005,
+    "resize_to": null,
+    "IsMultispectral": false
+}
