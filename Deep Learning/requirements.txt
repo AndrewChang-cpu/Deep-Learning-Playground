@@ -1,0 +1,12 @@
+pandas
+requests
+IPython
+matplotlib
+matplotlib_inline
+numpy
+torch
+torchvision
+pillow
+scipy
+torch
+torchvision
