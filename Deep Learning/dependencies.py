@@ -25,3 +25,5 @@ from scipy.spatial import distance_matrix
 from torch import nn
 from torch.nn import functional as F
 from torchvision import transforms
+
+from d2l import torch as d2l
